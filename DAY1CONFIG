@@ -169,10 +169,10 @@ config t
 ip routing
 ip dhcp pool CAMERA6
 host 10.22.50.6 255.255.255.0
-client-identifier 001a.0704.7f5b
+client-identifier 001a.0708.6f5b
 ip dhcp pool CAMERA8
 host 10.22.50.8 255.255.255.0
-client-identifier 001a.0709.c258 
+client-identifier 001a.0709.be64 
 end
 show ip dhcp binding
 
@@ -262,7 +262,7 @@ voice register dn 10
  allow watch
 !
 voice register pool 1
- id mac obob.cafe.baba
+ id mac 6c5e.3bf2.1602
  number 1 dn 1
  number 2 dn 2
  number 3 dn 3
@@ -274,7 +274,7 @@ voice register pool 1
  type 8851
 !
 voice register pool 2
- id mac haha.face.bobo
+ id mac 6c5e.3bf2.160a
  number 1 dn 6
  number 2 dn 8
  number 3 dn 9
